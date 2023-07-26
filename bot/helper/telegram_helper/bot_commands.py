@@ -17,7 +17,7 @@ class _BotCommands:
         self.CancelAllCommand = [f'cancelall{CMD_SUFFIX}', 'cancelallbot']
         self.ListCommand = f'list{CMD_SUFFIX}'
         self.SearchCommand = f'search{CMD_SUFFIX}'
-        self.StatusCommand = [f'status{CMD_SUFFIX}', f's{CMD_SUFFIX}', 'sall']
+        self.StatusCommand = [f'status{CMD_SUFFIX}', f's{CMD_SUFFIX}', 'statusall']
         self.UsersCommand = f'users{CMD_SUFFIX}'
         self.AuthorizeCommand = f'authorize{CMD_SUFFIX}'
         self.UnAuthorizeCommand = f'unauthorize{CMD_SUFFIX}'
